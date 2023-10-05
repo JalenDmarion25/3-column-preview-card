@@ -15,6 +15,11 @@
 
 body{
     background-color: var(--background);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
 }
 
 .wrapper {
